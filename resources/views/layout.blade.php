@@ -328,7 +328,6 @@
             <a href="https://www.instagram.com/anfonekristine" target="_blank" aria-label="Instagram">
             <i class="bi bi-instagram"></i>
            </a>
-            </a>
            <a href="https://github.com/kris1503" target="_blank" aria-label="GitHub">
            <i class="bi bi-github"></i>
            </a>
