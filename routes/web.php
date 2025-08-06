@@ -4,9 +4,14 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BioController;
 use App\Http\Controllers\ContactController;
 
-Route::prefix('biography')->group(function () 
-{
-    // Homepage or Biography page
+// Home page route (outside prefix)
+Route::get('/', function () {
+    return view('home');
+});
+
+Route::prefix('biography')->group(function () {
+
+    // Biography page
     Route::get('/', [BioController::class, 'show'])->name('bio');
 
     // Skills page
